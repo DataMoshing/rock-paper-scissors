@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+    font-family:"Nunito Sans", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 h1 {
     display: flex;
+    justify-content: center;
+    font-weight: 300;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -105px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#rock {
+    padding: 25px;
+    margin: 5px;
+}
+
+#paper {
+    padding: 25px;
+    margin: 5px;
+}
+
+
+#scissors {
+    padding: 25px;
+    margin: 5px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+#player {
+    display: flex;
+    justify-content: center;
+}
+
+#computer {
+    display: flex;
+    justify-content: center;
+}
+
+#playerScore {
+    display: flex;
+    justify-content: center;
+}
+
+#computerScore {
+    display: flex;
+    justify-content: center;
+    
 }

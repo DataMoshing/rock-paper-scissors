@@ -4,9 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
   </head>
   <body>
+    <header class="header">
+      <h1>ROCK PAPER SCISSORS</h1>
+      <h2>First to reach 5 points wins !</h2>
+    </header>
+    <div id ="scoreboard"></div>
+    <span id = "player">Player score:</span><span id = "playerScore"></span>
+    <span id = "computer">Computer score:</span><span id = "computerScore"></span>
+    <main class="main">
+      <div class="buttons">
+        <div class="button"><button id="rock" type="button">Rock</button></div>
+        <div class="button"><button id="paper" type="button">Paper</button></div>
+        <div class="button"><button id="scissors" type="button">Scissors</button></div>
+      </div>
+    </main>
     <script src = "script.js"></script>
   </body>
 </html>
