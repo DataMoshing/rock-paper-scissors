@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 90px;
     font-family:"Nunito Sans", sans-serif;
+    padding-left: 90px;
 }
 
 
@@ -44,7 +44,6 @@ main {
 .buttons{
     display: flex;
     justify-content: center;
-    
 }
 
 #rock {
@@ -86,5 +85,4 @@ main {
 #computerScore {
     display: flex;
     justify-content: center;
-    
 }
