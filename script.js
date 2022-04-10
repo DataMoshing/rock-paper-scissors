@@ -37,10 +37,6 @@ function computerPlay(){
 function playRound(playerSelection, computerSelection) {
     computerSelection = computerPlay();
     
-    
-    
-    console.log(computerScore)
-    console.log(playerScore)
     if (computerSelection == "rock" && playerSelection == "scissors") {
         scoreboard.textContent = "You lose! Rock beats Scissors"
         computerScore++;
